@@ -10,7 +10,7 @@ function validateLogin(event) {
     const passwordInput = document.getElementById("pwd");
     const modal = document.querySelector(".modal");
 
-    const correctUsername = "admin@mobiwash.com";
+    const correctUsername = "admin";
     const correctPassword = "Password123";
 
     const enteredUsername = usernameInput.value.trim();
